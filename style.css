@@ -51,27 +51,22 @@ body{
     grid-row: 3/4;
 }
 .article-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap:30px;
-    font-size:1.3em;
+    grid-column: 2 / 3;
+    font-size: 1.8rem;
+    letter-spacing: 0.6px;
+    column-width: 20rem;
+    text-align: justify;
 }
-.one{
-    grid-column: 1/2;
-}
+ .article-2 p{
+    margin:0;
+ }
 .one::first-letter{
     font-size: 6rem;
     color: orangered;
     float: left;
     margin-right: 1rem;
 }
-.two{
-    grid-column: 2/3;
-}
-.three{
-    grid-column: 3/4;
-}
+ 
 .section-3{
     margin-top:40px;
     grid-row: 4/5;
